@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+
+.jumbotron {
+  align-items: center;
+  text-align: center;
+  background-color: lightgray;
+}
+
+body {
+  background-color: slategray;
+}

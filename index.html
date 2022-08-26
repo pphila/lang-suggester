@@ -11,73 +11,73 @@
 <body>
   <div class="jumbotron" id="header">
     <div class="container">
-      <img src="" alt="">
+      <img src="img/coder.png" alt="photo of coder">
       <h1>Language Selector</h1>
       <p>Are you new to coding? Use this app to figure out which language best suites you.</p>
       <br>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
+      <a href="#quiz">Quiz Section</a>
+      <a href="#languages">Languages</a>
     </div>
   </div>
 
   <div class="container">
-    <div class="quiz">
+    <div id="quiz">
       <h2 id>Personality Quiz!</h2>
       <HR></HR>
       <form id="quizForm">
         <ol>
           <li>
             <p>Do you enjoy a good puzzle?</p>
-            <input class="personality-input" type="radio" name="question1Rad1">
+            <input class="personality-input" type="radio" name="question1Rad" value="1">
             <label class="personality-label" for="question1Rad1">Yes</label>
             <br>
-            <input class="personality-input" type="radio" name="question1Rad2">
+            <input class="personality-input" type="radio" name="question1Rad" value="0">
             <label class="personality-label" for="question1Rad2">No</label>
           </li>
           <HR></HR>
           <li>
             <p>How about a 3,000 piece puzzle to?</p>
-            <input class="personality-input" type="radio" name="question2Rad1">
+            <input class="personality-input" type="radio" name="question2Rad" value="1">
             <label class="personality-label" for="question2Rad1">Yes</label>
             <br>
-            <input class="personality-input" type="radio" name="question2Rad2">
+            <input class="personality-input" type="radio" name="question2Rad" value="0">
             <label class="personality-label" for="question2Rad2">No</label>
           </li>
           <HR></HR>
           <li>
             <p>You would rather read dance to live music or relax on a sunny beach?</p>
-            <input class="personality-input" type="radio" name="question3Rad1">
+            <input class="personality-input" type="radio" name="question3Rad" value="1">
             <label class="personality-label" for="question3Rad1">Dance my heart out</label>
             <br>
-            <input class="personality-input" type="radio" name="question3Rad2">
+            <input class="personality-input" type="radio" name="question3Rad" value="0">
             <label class="personality-label" for="question3Rad2">Give me a Mai Tai with an umbrella please!</label>
           </li>
           <HR></HR>
           <li>
             <p>How familiar are you with coding in general?</p>
-            <input class="personality-input" type="radio" name="question4Rad1">
+            <input class="personality-input" type="radio" name="question4Rad" value="2">
             <label class="personality-label" for="question4Rad1">Years of experience</label>
             <br>
-            <input class="personality-input" type="radio" name="question4Rad2">
+            <input class="personality-input" type="radio" name="question4Rad" value="1">
             <label class="personality-label" for="question4Rad2">I have dabbled here and there</label>
             <br>
-            <input class="personality-input" type="radio" name="question4Rad3">
+            <input class="personality-input" type="radio" name="question4Rad" value="0">
             <label class="personality-label" for="question4Rad3">No experience what so ever</label>
           </li>
           <HR></HR>
           <li>
             <p>Do you find learning a new langauge fun and/or easy?</p>
-            <input class="personality-input" type="radio" name="question5Rad1">
-            <label class="personality-label" for="question5Rad1">answer 1</label>
+            <input class="personality-input" type="radio" name="question5Rad" value="2">
+            <label class="personality-label" for="question5Rad1">Super easy</label>
             <br>
-            <input class="personality-input" type="radio" name="question5Rad2">
-            <label class="personality-label" for="question5Rad2"></label>
+            <input class="personality-input" type="radio" name="question5Rad" value="1">
+            <label class="personality-label" for="question5Rad2">A little challenging, but fun!</label>
             <br>
-            <input class="personality-input" type="radio" name="question5Rad3">
-            <label class="personality-label" for="question5Rad3"></label>
+            <input class="personality-input" type="radio" name="question5Rad" value="0">
+            <label class="personality-label" for="question5Rad3">No thanks, way too hard</label>
           </li>
         </ol>
+        <button type="submit" class="btn">Show me!</button>
       </form>
     </div>
   </div>
@@ -88,6 +88,7 @@
     <div class="card-deck">
       <div class="card">
         <div class="card-body">
+          <img src="" alt="JS png">
           <h3 id="card-title">JavaScript</h3>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, qui cumque! Maiores libero rerum perspiciatis impedit excepturi quasi sunt, harum iure minus illo recusandae vel dignissimos accusantium dicta tempora optio.</p>
         </div>
@@ -96,6 +97,7 @@
     <div class="card-deck">
       <div class="card">
         <div class="card-body">
+          <img src="" alt="C# png">
           <h3 id="card-title">C#</h3>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, qui cumque! Maiores libero rerum perspiciatis impedit excepturi quasi sunt, harum iure minus illo recusandae vel dignissimos accusantium dicta tempora optio.</p>
         </div>
@@ -104,6 +106,7 @@
     <div class="card-deck">
       <div class="card">
         <div class="card-body">
+          <img src="" alt="Python png">
           <h3 id="card-title">Python</h3>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, qui cumque! Maiores libero rerum perspiciatis impedit excepturi quasi sunt, harum iure minus illo recusandae vel dignissimos accusantium dicta tempora optio.</p>
         </div>
