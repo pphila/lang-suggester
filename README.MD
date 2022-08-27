@@ -23,6 +23,7 @@ This webpage was build and designed to present a form and return a suggested pro
 ## Known Bugs
 
 * _Radio button will not uncheck when "reset" button is clicked.
+* _Images whithin cards will not center with css styling
 
 ## License
 Copyright (c) August 2022 Peter Philavanh
