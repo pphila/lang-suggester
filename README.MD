@@ -17,13 +17,13 @@ This webpage was build and designed to present a form and return a suggested pro
 ## Setup/Installation Requirments
 
 * _Clone this repositoy to local machine desktop_
-* _Use cmd GUI to navigate to cloned repo
-* _View contents of root director or open repo into VS code
+* _Use cmd GUI to navigate to cloned repo_
+* _View contents of root director or open repo into VS code_
 
 ## Known Bugs
 
-* _Radio button will not uncheck when "reset" button is clicked.
-* _Images whithin cards will not center with css styling
+* _Radio button will not uncheck when "reset" button is clicked_
+* _Images whithin cards will not center with css styling_
 
 ## License
 Copyright (c) August 2022 Peter Philavanh
