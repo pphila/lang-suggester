@@ -8,6 +8,12 @@
   background-color: lightgray;
 }
 
+.jumbotron img {
+  height: 640px;
+  width: auto;
+}
+
 body {
   background-color: slategray;
+  font-weight: 600;
 }
