@@ -1,7 +1,14 @@
+/*global*/
 .hidden {
   display: none;
 }
 
+body {
+  background-color: #2C3639;
+  font-weight: 600;
+}
+
+/*header*/
 .jumbotron {
   align-items: center;
   text-align: center;
@@ -11,9 +18,60 @@
 .jumbotron img {
   height: 640px;
   width: auto;
+  border-radius: 4px;
 }
 
-body {
-  background-color: slategray;
+#header h1 {
+  padding: 15px;
+}
+
+#header a {
+  text-decoration: none;
+  padding: 10px;
+  color: #A27B5C;
+}
+
+#header a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+/*quiz section*/
+#quiz {
+  display: grid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #3F4E4F;
+  color: lightgray;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  background-color: lightgray;
+  color: black;
+  margin-top: 15px;
+  margin-left: 15px;
   font-weight: 600;
+}
+
+.btn:hover {
+  box-shadow: 0 0 6px whitesmoke;
+}
+
+/*Cards section*/
+#languages {
+  display: grid;
+  padding: 10px;
+}
+
+#languages h2 {
+  color: white;
+  text-align: center;
+  padding: 20px; 
 }
