@@ -19,18 +19,18 @@ window.addEventListener("load", function() {
     console.log(answer5);
     const score = answer1 + answer2 + answer3 + answer4 + answer5;
 
-    if (score >= 6) {
+    if (score >= 10) {
       document.getElementById("resultCSharp").removeAttribute("class");
       document.getElementById("resultPython").setAttribute("class", "hidden");
       document.getElementById("resultJavaScript").setAttribute("class", "hidden");
-    } else if (score < 6 && score >= 4) {
+    } else if (score < 10 && score >= 7) {
       document.getElementById("resultPython").removeAttribute("class");
       document.getElementById("resultCSharp").setAttribute("class", "hidden");
       document.getElementById("resultJavaScript").setAttribute("class", "hidden");
-    } else if (score < 4 && score >= 0) {
+    } else if (score < 7 && score >= 5) {
       document.getElementById("resultJavaScript").removeAttribute("class");
       document.getElementById("resultCSharp").setAttribute("class", "hidden");
-      document.getElementById("resulrPython").setAttribute("class", "hidden");
+      document.getElementById("resultPython").setAttribute("class", "hidden");
     } else {
       document.getElementById("resulNone").removeAttribute("class");
       document.getElementById("resultCSharp").setAttribute("class", "hidden");
